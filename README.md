@@ -29,20 +29,20 @@ random, datetime	Select random songs and handle time functions
 
 **AstraAI/**
 │
-├── main.py                     **Main program: CLI voice assistant**
-├── requirements.txt            **Python dependencies**
+├── main.py                     
+├── requirements.txt            
 │
-├──**modules/**                   **Core modules**
-│   ├── stt.py                  **Speech-to-text**
-│   ├── tts.py                  **Text-to-speech**
-│   ├── wikipedia_search.py     **Wikipedia search module**
-│   ├── music_player.py         **Play music on YouTube**
-│   ├── chatbot.py              **Local GGUF model chat**
-│   └── web_browser.py          **Open websites module**
+├──**modules/**                   
+│   ├── stt.py                  
+│   ├── tts.py                  
+│   ├── wikipedia_search.py     
+│   ├── music_player.py         
+│   ├── chatbot.py              
+│   └── web_browser.py          
 │
-├── **models/**                    **AI models**
+├── **models/**                    
 │   └── orca-mini-3b-gguf2-q4_0.gguf
 │
-└── **assets/**                     **GUI images, icons, avatars**
+└── **assets/**                     
     └── avatar.png
 
