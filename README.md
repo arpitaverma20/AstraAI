@@ -16,7 +16,6 @@ This project is an **offline voice assistant** powered by Python and a **local G
 
  🛠️ **Tech Stack:**
 
-Technology	Role / Usage
 Python 3.10	Core programming language
 pyttsx3	Text-to-speech engine for voice output
 speech_recognition	Speech-to-text engine for capturing user input
