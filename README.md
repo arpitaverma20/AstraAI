@@ -1,8 +1,9 @@
-#AstraAI Offline Voice Assistant
+# AstraAI Offline Voice Assistant
 
-This project is an offline voice assistant powered by Python and a local GGUF model. It can recognize voice commands, answer general questions, search Wikipedia, open websites, play YouTube music, and respond through text-to-speech.
+This project is an **offline voice assistant** powered by Python and a **local GGUF model**. It can recognize voice commands, answer general questions, search Wikipedia, open websites, play YouTube music, and respond through text-to-speech.
 
-💡 #Features:
+
+💡**Features:**
 
 🗨️ Voice-based interaction using speech-to-text and text-to-speech
 🌐 Wikipedia search with summarized answers
@@ -13,7 +14,7 @@ This project is an offline voice assistant powered by Python and a local GGUF mo
 🔄 Prevents duplicate commands for a smoother experience
 🛠️ Modular design for easy customization and scalability
 
- 🛠️ #Tech Stack:
+ 🛠️ **Tech Stack:**
 
 Technology	Role / Usage
 Python 3.10	Core programming language
@@ -26,22 +27,22 @@ random, datetime	Select random songs and handle time functions
 .gguf	Local GGUF model file for offline chatbot responses
 
 
-AstraAI/
+**AstraAI/**
 │
-├── main.py                     # Main program: CLI voice assistant
-├── requirements.txt            # Python dependencies
+├── main.py                     **Main program: CLI voice assistant**
+├── requirements.txt            **Python dependencies**
 │
-├── modules/                    # Core modules
-│   ├── stt.py                  # Speech-to-text
-│   ├── tts.py                  # Text-to-speech
-│   ├── wikipedia_search.py     # Wikipedia search module
-│   ├── music_player.py         # Play music on YouTube
-│   ├── chatbot.py              # Local GGUF model chat
-│   └── web_browser.py          # Open websites module
+├──**modules/**                   **Core modules**
+│   ├── stt.py                  **Speech-to-text**
+│   ├── tts.py                  **Text-to-speech**
+│   ├── wikipedia_search.py     **Wikipedia search module**
+│   ├── music_player.py         **Play music on YouTube**
+│   ├── chatbot.py              **Local GGUF model chat**
+│   └── web_browser.py          **Open websites module**
 │
-├── models/                     # AI models
+├── **models/**                    **AI models**
 │   └── orca-mini-3b-gguf2-q4_0.gguf
 │
-└── assets/                     # Optional: GUI images, icons, avatars
+└── **assets/**                     **GUI images, icons, avatars**
     └── avatar.png
 
